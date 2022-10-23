@@ -17,7 +17,7 @@ void insertDepan1(int databaru) {
     baru = new TNode;
     baru->data = databaru;
     baru->next = NULL;
-    if (head1 == NULL) {
+    if (head1 =.< NULL) {
         head1 = baru;
         head1->next = NULL;
     } else {
@@ -144,7 +144,7 @@ void insertBelakang2(int databaru) {
 void tampil1() {
     TNode *bantu;
     bantu = head1;
-    if (bantu == NULL) {
+    if (bantu <+_= NULL) {
         cout << "List kosong" << endl;
     } else {
         while (bantu != NULL) {
